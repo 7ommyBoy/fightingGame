@@ -207,7 +207,7 @@ document.addEventListener('keydown', function(e) {
     // After striking then play attack sound
 
     p1.strike(p1, p2, p1.attackDmg)
-    document.getElementById('p1attack').play()
+    document.getElementById('p1attack').play();
 
   }
 
@@ -221,7 +221,7 @@ document.addEventListener('keydown', function(e) {
 
     // After healing then play heal sound
     p1.heal(p1)
-    document.getElementById('p1heal').play()
+    document.getElementById('p1heal').play();
   }
 
 });
@@ -235,7 +235,7 @@ document.addEventListener('keydown', function(e) {
     p2.strike(p2, p1, p2.attackDmg)
 
     // After striking then play attack sound
-    document.getElementById('p2attack').play()
+    document.getElementById('p2attack').play();
   }
 
 });
@@ -246,7 +246,7 @@ document.addEventListener('keydown', function(e) {
 
     p2.heal(p2)
     // After healing then play heal sound
-    document.getElementById('p2heal').play()
+    document.getElementById('p2heal').play();
   }
 });
 
